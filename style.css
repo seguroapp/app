@@ -1,0 +1,90 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para o cabeçalho */
+/* Estilos para o cabeçalho */
+header {
+    background: linear-gradient(to right, #fee9a6, #fec0ab);
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    max-height: 50px; /* Ajuste a altura máxima de acordo com o tamanho do seu logo */
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Estilos para o conteúdo principal */
+  main {
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #660860;
+  }
+  
+  h2 {
+    color: #fa5894;
+    margin-top: 30px;
+  }
+  
+  p {
+    color: #9380b7;
+    line-height: 1.5;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background: linear-gradient(to right, #fec0ab, #660860);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  footer ul li a:hover {
+    text-decoration: underline;
+  }
+  
